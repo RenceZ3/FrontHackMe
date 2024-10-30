@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 20px;
+}
+
+.form-container {
+    
+}
+
+label, input {
+    display: block;
+    margin-top: 3px;
+}
+
+#othersText {
+    min-width: 80%;
+    height: 10%;
+}
+
+input[type="submit"] {
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 10px;
+    float: inline-end;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Cash Fill Up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="form-container">
+        <h1>Please fill-up this form for any transaction.</h1>
+
+        <form action="">
+            <label for="firstName">First Name</label>
+            <input type="firstName">
+    
+            <label for="lastName">Last Name</label>
+            <input type="lastName">
+    
+            <label for="purposeOfTransaction">Purpose of Transaction</label>
+    
+            <select name="purposes" id="purposes">
+                <option value="sendingMoney">Sending Money</option>
+                <option value="receivingMoney">Receiving Money</option>
+                <option value="others">others</option>
+            </select>
+    
+            <input type="text" id="othersText" placeholder="If choosen others please specify here, otherwise leave this blank">
+    
+            <label for="cost">Amount in Peso</label>
+            <input type="text" name="amount" id="amount">
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
